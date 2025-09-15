@@ -1,0 +1,85 @@
+body {
+    font-family: 'Montserrat';
+    background-color: #343a40;
+    color: white;
+}
+.jumbotron {
+  background-image: linear-gradient(to right, #1e3a8a, #2563eb);
+  color: white;
+  padding: 2rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-size: 3.3rem;
+  font-weight: bold;
+}
+.gren{
+  color: #99ff99;
+}
+.container{
+  line-height: 1.75;
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.jumbotron p {
+  font-size: 2.4rem;
+}
+.custom-row {
+  background-color: #495057;
+  margin: 20px 0;
+  padding: 5px 40px;
+  border-radius: 5px;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.custom-row-indp {
+  background-color: #495057;
+  margin: 20px 0;
+  padding: 5px 40px;
+  border-radius: 5px;
+}
+.custom-row.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+.custom-row.left {
+  transform: translateX(-100%); 
+}
+.custom-row.visible.left {
+  transform: translateX(0); 
+}
+.custom-row h3 {
+  color: #f8f9fa;
+  font-size: 29px;
+}
+.intro{
+  max-width: 35%;
+}
+.demo{
+  max-width: 100%;
+}
+.demohd{
+  max-width: 444px;
+}
+.prest{
+  width: 1000px;
+}
+.coloors{
+  max-width: 1024px;
+}
+.line{
+  max-width: 100%;
+}
+.custom-row-indp h3 {
+  font-size: 2.0rem;
+}
+.custom-row-indp p {
+  font-size: 1.8rem;
+}
+.custom-row p {
+  font-size: 1.8rem;
+}
