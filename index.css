@@ -4,8 +4,8 @@ body {
     color: white;
 }
 .jumbotron {
-  background-image: linear-gradient(to right, #398a1e, #24eb24);
-  color: white;
+  background-image: linear-gradient(to right, #ffffff, #ffffff);
+  color: black;
   padding: 2rem;
   margin-bottom: 0;
   text-align: center;
