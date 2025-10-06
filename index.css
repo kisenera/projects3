@@ -84,8 +84,9 @@ body {
   max-width: 512px;
   max-height: 512px;
   flex-basis: 100%;
-  flex: 0 0 100%;
-  width: auto;
+  flex: 1 1 auto;
+  width: 100%;
+  object-fit: contain;
 }
 .demohd{
   max-width: 444px;
