@@ -41,6 +41,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   column-gap: 2rem;
+  flex-direction: row;
 }
 .custom-row p{
   color: #303030;
@@ -49,7 +50,9 @@ body {
   flex: 1 1 0;
   margin: 0;
   overflow-wrap: break-word;
-  min-width: 0;
+  min-width: 25ch;
+  object-fit: contain;
+  writing-mode: vertical-r1;
 }
 .custom-row-indp {
   background-color: #f2f2f2;
@@ -85,8 +88,12 @@ body {
   max-height: 512px;
   flex-basis: 100%;
   flex: 1 1 auto;
+  min-width: 0;
   width: 100%;
   object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  margin-bottom: 1.5em;
 }
 .demohd{
   max-width: 444px;
@@ -124,9 +131,7 @@ a:hover {
   font-weight: bold;
 }
 .custom-row img{
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
-  flex: 0 0 auto;
+  
 }
 h3{
   justify-content: center;
