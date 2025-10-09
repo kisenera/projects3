@@ -42,6 +42,8 @@ body {
   flex-wrap: wrap;
   column-gap: 2rem;
   flex-direction: row;
+  height: auto;
+  overflow-x: hidden;
 }
 .custom-row p{
   color: #303030;
@@ -53,6 +55,9 @@ body {
   min-width: 25ch;
   object-fit: contain;
   writing-mode: vertical-r1;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 .custom-row-indp {
   background-color: #f2f2f2;
