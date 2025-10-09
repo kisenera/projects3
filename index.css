@@ -178,3 +178,8 @@ h3{
   display: flex;
   flex-wrap: wrap;
 }
+@media (max-aspect-ratio: 9/15){
+  .custom-row p{
+    font-size: 0.75rem;
+  }
+}
