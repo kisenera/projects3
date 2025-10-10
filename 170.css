@@ -96,3 +96,14 @@ body {
   font-size: clamp(0.55rem, 3vw, 1.35rem);
   min-width: 25ch;
 }
+.vido{
+  max-width: 640px;
+  margin: 0 auto;
+
+}
+video{
+  width: 100%;
+  height: auto;
+  display: block;
+  background: #000;
+}
