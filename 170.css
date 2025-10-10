@@ -59,6 +59,14 @@ body {
 .intro{
   max-width: 35%;
 }
+.demo{
+  max-width: 512px;
+  max-height: 512px;
+  flex-basis: 100%;
+  min-width: 0;
+  width: auto;
+  object-fit: contain;
+}
 .custom-row img{
   max-width: 512px;
   max-height: 512px;
