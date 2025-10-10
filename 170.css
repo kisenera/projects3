@@ -69,7 +69,6 @@ body {
 }
 .demohd{
   max-width: 444px;
-  flex-basis: 100%;
   min-width: 0;
   width: auto;
   object-fit: contain;
@@ -94,3 +93,4 @@ body {
   font-size: clamp(0.55rem, 3vw, 1.35rem);
   min-width: 25ch;
 }
+
