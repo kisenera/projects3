@@ -167,6 +167,8 @@ h3{
 .tab-link.active {
   background: #aaa;
   color: white;
+  outline: 3px solid #0067ff;
+  outline-offset: 2px;
 }
 .category{
   display: none;
